@@ -87,6 +87,18 @@ Http::withoutVerifying()->get($url);
 
 Note: This is only for local testing and should not be used in production.
 
+## Time spent
+
+he estimated time spent on this assessment: **6–8 hours**
+
+Breakdown:
+- Project setup and module structure: ~1.5 hours
+- Expense CRUD implementation (Controller, Service, Requests): ~2 hours
+- Event, Listener, and Notification wiring: ~1 hour
+- Swagger (Scribe) integration and documentation: ~1.5 hours
+- Testing and final review: ~2 hours
+
+
 ## License
 
 Author
