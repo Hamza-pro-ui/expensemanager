@@ -37,20 +37,24 @@ app/
 
 ## Setup Instructions
 
+### 1. Clone the repo
 
-### 1. Install dependencies
+git clone https://github.com/Hamza-pro-ui/expensemanager.git
+cd expensemanager
+
+### 2. Install dependencies
 composer install
 
-### 2. Configure your environment
+### 3. Configure your environment
 
 cp .env.example .env
 php artisan key:generate
 
-### 3. Run migrations
+### 4. Run migrations
 
 php artisan migrate
 
-### 4. Generate API docs
+### 5. Generate API docs
 
 php artisan scribe:generate
 
